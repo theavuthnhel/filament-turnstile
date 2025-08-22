@@ -2,8 +2,8 @@
 
 namespace TheavuthNhel\FilamentTurnstile\Forms\Components;
 
-use TheavuthNhel\LaravelTurnstile\Rules\TurnstileCheck;
 use Filament\Forms\Components\Field;
+use TheavuthNhel\LaravelTurnstile\Rules\TurnstileCheck;
 
 class Turnstile extends Field
 {

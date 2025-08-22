@@ -1,10 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Event;
 use TheavuthNhel\FilamentTurnstile\Tests\Fixtures\ContactUs;
 use TheavuthNhel\FilamentTurnstile\Tests\Models\Contact;
 use TheavuthNhel\LaravelTurnstile\Facades\LaravelTurnstile;
-use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Event;
 
 use function Pest\Livewire\livewire;
 

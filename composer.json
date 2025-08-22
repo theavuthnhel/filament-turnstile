@@ -1,0 +1,79 @@
+{
+    "name": "theavuthnhel/filament-turnstile",
+    "description": "Filament Plugin to help you implement Cloudflare Turnstile",
+    "keywords": [
+        "theavuthnhel",
+        "laravel",
+        "laravel-turnstile",
+        "filament",
+        "filament-turnstile",
+        "cloudflare",
+        "turnstile"
+    ],
+    "homepage": "https://github.com/theavuthnhel/filament-turnstile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Theavuth",
+            "email": "theavuth.nhel.kh@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3|^8.4",
+        "coderflex/laravel-turnstile": "^1.0|^2.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "require-dev": {
+        "filament/filament": "^4.0",
+        "laravel/pint": "^1.0",
+        "larastan/larastan": "^2.8|^3.0",
+        "nunomaduro/collision": "^7.0|^8.0",
+        "nunomaduro/larastan": "^2.8.0|^3.1.0",
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "pestphp/pest": "^2.0|^3.7",
+        "pestphp/pest-plugin-arch": "^2.0|^3.0",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
+        "phpstan/phpstan-phpunit": "^1.0|^2.0",
+        "pestphp/pest-plugin-livewire": "^2.0|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheavuthNhel\\FilamentTurnstile\\": "src/",
+            "TheavuthNhel\\FilamentTurnstile\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheavuthNhel\\FilamentTurnstile\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheavuthNhel\\FilamentTurnstile\\FilamentTurnstileServiceProvider"
+            ],
+            "aliases": {
+                "FilamentTurnstile": "TheavuthNhel\\FilamentTurnstile\\Facades\\FilamentTurnstile"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

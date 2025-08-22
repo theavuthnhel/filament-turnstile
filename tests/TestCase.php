@@ -4,7 +4,6 @@ namespace TheavuthNhel\FilamentTurnstile\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use TheavuthNhel\FilamentTurnstile\FilamentTurnstileServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\Facades\Filament;
 use Filament\FilamentServiceProvider;
@@ -18,6 +17,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
+use TheavuthNhel\FilamentTurnstile\FilamentTurnstileServiceProvider;
 
 class TestCase extends Orchestra
 {

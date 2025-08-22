@@ -2,7 +2,7 @@
 
 namespace TheavuthNhel\FilamentTurnstile\Forms\Components;
 
-use TheavuthNhel\LaravelTurnstile\Rules\TurnstileCheck;
+use Coderflex\LaravelTurnstile\Rules\TurnstileCheck;
 use Filament\Forms\Components\Field;
 
 class Turnstile extends Field

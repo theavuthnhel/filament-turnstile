@@ -1,31 +1,31 @@
 # Filament Turnstile
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/coderflex/filament-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflex/filament-turnstile)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/coderflexx/filament-turnstile/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/coderflexx/filament-turnstile/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/coderflexx/filament-turnstile/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/coderflexx/filament-turnstile/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/coderflex/filament-turnstile.svg?style=flat-square)](https://packagist.org/packages/coderflex/filament-turnstile)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/theavuthnhel/filament-turnstile.svg?style=flat-square)](https://packagist.org/packages/theavuthnhel/filament-turnstile)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/theavuthnhel/filament-turnstile/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/theavuthnhel/filament-turnstile/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/theavuthnhel/filament-turnstile/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/theavuthnhel/filament-turnstile/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/theavuthnhel/filament-turnstile.svg?style=flat-square)](https://packagist.org/packages/theavuthnhel/filament-turnstile)
 
 </br>
 
-<img src="https://github.com/coderflexx/filament-turnstile/raw/main/art/thumbnail.png" alt="Login Screen screenshot" class="filament-hidden"/>
+<img src="https://github.com/theavuthnhel/filament-turnstile/raw/main/art/thumbnail.png" alt="Login Screen screenshot" class="filament-hidden"/>
 
 </br>
 
 **Filament Turnstile** is an essential plugin designed to seamlessly integrate Cloudflare's turnstile into your applications.
 
-This plugin uses [Laravel Turnstile](https://github.com/coderflexx/laravel-turnstile) under the hood. For detailed information, explore the [Laravel Turnstile README](https://github.com/coderflexx/laravel-turnstile).
+This plugin uses [Laravel Turnstile](https://github.com/theavuthnhel/laravel-turnstile) under the hood. For detailed information, explore the [Laravel Turnstile README](https://github.com/theavuthnhel/laravel-turnstile).
 
 ## Installation
 Install the package via Composer:
 
 ```bash
-composer require coderflex/filament-turnstile
+composer require theavuthnhel/filament-turnstile
 ```
 
 For users still on **Filament V2**, install the package using:
 
 ```bash
-composer require coderflex/filament-turnstil "^1.0"
+composer require theavuthnhel/filament-turnstil "^4.0"
 ```
 
 ## Turnstile Keys
